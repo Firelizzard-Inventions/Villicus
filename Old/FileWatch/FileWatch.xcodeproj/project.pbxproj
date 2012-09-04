@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426E35CB14246B2400F37295 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426E35CA14246B2400F37295 /* Cocoa.framework */; };
+		426E35D514246B2400F37295 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 426E35D314246B2400F37295 /* InfoPlist.strings */; };
+		426E35D714246B2400F37295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426E35D614246B2400F37295 /* main.m */; };
+		426E35DB14246B2400F37295 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 426E35D914246B2400F37295 /* Credits.rtf */; };
+		426E35DE14246B2400F37295 /* FileWatchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426E35DD14246B2400F37295 /* FileWatchAppDelegate.m */; };
+		426E35E114246B2400F37295 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426E35DF14246B2400F37295 /* MainMenu.xib */; };
+		426E35E414246B2400F37295 /* FileWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 426E35E214246B2400F37295 /* FileWatch.xcdatamodeld */; };
+		426E360414246E6000F37295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426E360314246E6000F37295 /* Foundation.framework */; };
+		426E360714246E6000F37295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426E360614246E6000F37295 /* main.m */; };
+		426E360B14246E6000F37295 /* FSEL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 426E360A14246E6000F37295 /* FSEL.1 */; };
+		426E361114246F5600F37295 /* FSEL in Resources */ = {isa = PBXBuildFile; fileRef = 426E360114246E6000F37295 /* FSEL */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426E360F14246F5100F37295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426E35BD14246B2300F37295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426E360014246E6000F37295;
+			remoteInfo = FSEL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		426E35FF14246E6000F37295 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				426E360B14246E6000F37295 /* FSEL.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		426E35C614246B2400F37295 /* FileWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426E35CA14246B2400F37295 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		426E35CD14246B2400F37295 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		426E35CE14246B2400F37295 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		426E35CF14246B2400F37295 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		426E35D214246B2400F37295 /* FileWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileWatch-Info.plist"; sourceTree = "<group>"; };
+		426E35D414246B2400F37295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		426E35D614246B2400F37295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426E35D814246B2400F37295 /* FileWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileWatch-Prefix.pch"; sourceTree = "<group>"; };
+		426E35DA14246B2400F37295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		426E35DC14246B2400F37295 /* FileWatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileWatchAppDelegate.h; sourceTree = "<group>"; };
+		426E35DD14246B2400F37295 /* FileWatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileWatchAppDelegate.m; sourceTree = "<group>"; };
+		426E35E014246B2400F37295 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		426E35E314246B2400F37295 /* FileWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FileWatch.xcdatamodel; sourceTree = "<group>"; };
+		426E35F014246C4100F37295 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		426E360114246E6000F37295 /* FSEL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSEL; sourceTree = BUILT_PRODUCTS_DIR; };
+		426E360314246E6000F37295 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		426E360614246E6000F37295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426E360914246E6000F37295 /* FSEL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSEL-Prefix.pch"; sourceTree = "<group>"; };
+		426E360A14246E6000F37295 /* FSEL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FSEL.1; sourceTree = "<group>"; };
+		426E36151424705800F37295 /* kfse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfse.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426E35C314246B2400F37295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E35CB14246B2400F37295 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426E35FE14246E6000F37295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E360414246E6000F37295 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426E35BB14246B2300F37295 = {
+			isa = PBXGroup;
+			children = (
+				426E35D014246B2400F37295 /* FileWatch */,
+				426E360514246E6000F37295 /* FSEL */,
+				426E35C914246B2400F37295 /* Frameworks */,
+				426E35C714246B2400F37295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		426E35C714246B2400F37295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426E35C614246B2400F37295 /* FileWatch.app */,
+				426E360114246E6000F37295 /* FSEL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426E35C914246B2400F37295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426E35CA14246B2400F37295 /* Cocoa.framework */,
+				426E35F014246C4100F37295 /* CoreServices.framework */,
+				426E360314246E6000F37295 /* Foundation.framework */,
+				426E35CC14246B2400F37295 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		426E35CC14246B2400F37295 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426E35CD14246B2400F37295 /* AppKit.framework */,
+				426E35CE14246B2400F37295 /* CoreData.framework */,
+				426E35CF14246B2400F37295 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		426E35D014246B2400F37295 /* FileWatch */ = {
+			isa = PBXGroup;
+			children = (
+				426E35DC14246B2400F37295 /* FileWatchAppDelegate.h */,
+				426E35DD14246B2400F37295 /* FileWatchAppDelegate.m */,
+				426E35DF14246B2400F37295 /* MainMenu.xib */,
+				426E35E214246B2400F37295 /* FileWatch.xcdatamodeld */,
+				426E35D114246B2400F37295 /* Supporting Files */,
+			);
+			path = FileWatch;
+			sourceTree = "<group>";
+		};
+		426E35D114246B2400F37295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426E35D214246B2400F37295 /* FileWatch-Info.plist */,
+				426E35D314246B2400F37295 /* InfoPlist.strings */,
+				426E35D614246B2400F37295 /* main.m */,
+				426E35D814246B2400F37295 /* FileWatch-Prefix.pch */,
+				426E35D914246B2400F37295 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426E360514246E6000F37295 /* FSEL */ = {
+			isa = PBXGroup;
+			children = (
+				426E360614246E6000F37295 /* main.m */,
+				426E360A14246E6000F37295 /* FSEL.1 */,
+				426E360814246E6000F37295 /* Supporting Files */,
+				426E36151424705800F37295 /* kfse.h */,
+			);
+			path = FSEL;
+			sourceTree = "<group>";
+		};
+		426E360814246E6000F37295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426E360914246E6000F37295 /* FSEL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426E35C514246B2400F37295 /* FileWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426E35E714246B2400F37295 /* Build configuration list for PBXNativeTarget "FileWatch" */;
+			buildPhases = (
+				426E35C214246B2400F37295 /* Sources */,
+				426E35C314246B2400F37295 /* Frameworks */,
+				426E35C414246B2400F37295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426E361014246F5100F37295 /* PBXTargetDependency */,
+			);
+			name = FileWatch;
+			productName = FileWatch;
+			productReference = 426E35C614246B2400F37295 /* FileWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426E360014246E6000F37295 /* FSEL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426E360C14246E6000F37295 /* Build configuration list for PBXNativeTarget "FSEL" */;
+			buildPhases = (
+				426E35FD14246E6000F37295 /* Sources */,
+				426E35FE14246E6000F37295 /* Frameworks */,
+				426E35FF14246E6000F37295 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSEL;
+			productName = FSEL;
+			productReference = 426E360114246E6000F37295 /* FSEL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426E35BD14246B2300F37295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Firelizzard Inventions";
+			};
+			buildConfigurationList = 426E35C014246B2300F37295 /* Build configuration list for PBXProject "FileWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 426E35BB14246B2300F37295;
+			productRefGroup = 426E35C714246B2400F37295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426E35C514246B2400F37295 /* FileWatch */,
+				426E360014246E6000F37295 /* FSEL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426E35C414246B2400F37295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E361114246F5600F37295 /* FSEL in Resources */,
+				426E35D514246B2400F37295 /* InfoPlist.strings in Resources */,
+				426E35DB14246B2400F37295 /* Credits.rtf in Resources */,
+				426E35E114246B2400F37295 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426E35C214246B2400F37295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E35D714246B2400F37295 /* main.m in Sources */,
+				426E35DE14246B2400F37295 /* FileWatchAppDelegate.m in Sources */,
+				426E35E414246B2400F37295 /* FileWatch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426E35FD14246E6000F37295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E360714246E6000F37295 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426E361014246F5100F37295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426E360014246E6000F37295 /* FSEL */;
+			targetProxy = 426E360F14246F5100F37295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426E35D314246B2400F37295 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426E35D414246B2400F37295 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		426E35D914246B2400F37295 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426E35DA14246B2400F37295 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		426E35DF14246B2400F37295 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426E35E014246B2400F37295 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426E35E514246B2400F37295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		426E35E614246B2400F37295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		426E35E814246B2400F37295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileWatch/FileWatch-Prefix.pch";
+				INFOPLIST_FILE = "FileWatch/FileWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		426E35E914246B2400F37295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileWatch/FileWatch-Prefix.pch";
+				INFOPLIST_FILE = "FileWatch/FileWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		426E360D14246E6000F37295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSEL/FSEL-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/usr/src/xnu/bsd/**";
+				INSTALL_PATH = FileWatch/Resources/FSEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		426E360E14246E6000F37295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSEL/FSEL-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/usr/src/xnu/bsd/**";
+				INSTALL_PATH = FileWatch/Resources/FSEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426E35C014246B2300F37295 /* Build configuration list for PBXProject "FileWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426E35E514246B2400F37295 /* Debug */,
+				426E35E614246B2400F37295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426E35E714246B2400F37295 /* Build configuration list for PBXNativeTarget "FileWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426E35E814246B2400F37295 /* Debug */,
+				426E35E914246B2400F37295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426E360C14246E6000F37295 /* Build configuration list for PBXNativeTarget "FSEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426E360D14246E6000F37295 /* Debug */,
+				426E360E14246E6000F37295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		426E35E214246B2400F37295 /* FileWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				426E35E314246B2400F37295 /* FileWatch.xcdatamodel */,
+			);
+			currentVersion = 426E35E314246B2400F37295 /* FileWatch.xcdatamodel */;
+			path = FileWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 426E35BD14246B2300F37295 /* Project object */;
+}
