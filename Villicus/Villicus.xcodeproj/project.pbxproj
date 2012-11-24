@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421BB65115F9644C000ADEA3 /* Daemon in Resources */ = {isa = PBXBuildFile; fileRef = 4226FCFD15F935110035430D /* Daemon */; };
+		421BB65915F964B3000ADEA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226FCED15F934100035430D /* Foundation.framework */; };
+		421BB65C15F964B3000ADEA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421BB65B15F964B3000ADEA3 /* main.m */; };
+		421BB66015F964B3000ADEA3 /* Logger.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 421BB65F15F964B3000ADEA3 /* Logger.1 */; };
+		421BB66615F964D1000ADEA3 /* Logger in Resources */ = {isa = PBXBuildFile; fileRef = 421BB65715F964B3000ADEA3 /* Logger */; };
+		4226FCCB15F9334F0035430D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226FCCA15F9334F0035430D /* Cocoa.framework */; };
+		4226FCD515F933500035430D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4226FCD315F933500035430D /* InfoPlist.strings */; };
+		4226FCD715F933500035430D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226FCD615F933500035430D /* main.m */; };
+		4226FCDB15F933500035430D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4226FCD915F933500035430D /* Credits.rtf */; };
+		4226FCDE15F933500035430D /* FIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226FCDD15F933500035430D /* FIAppDelegate.m */; };
+		4226FCE115F933500035430D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4226FCDF15F933500035430D /* MainMenu.xib */; };
+		4226FCFF15F935110035430D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4226FCED15F934100035430D /* Foundation.framework */; };
+		4226FD0215F935110035430D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226FD0115F935110035430D /* main.m */; };
+		4226FD0615F935110035430D /* Daemon.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4226FD0515F935110035430D /* Daemon.1 */; };
+		42418F24166099D00023C347 /* FIEventClientImpt.m in Sources */ = {isa = PBXBuildFile; fileRef = 42418F23166099D00023C347 /* FIEventClientImpt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421BB64D15F9643C000ADEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4226FCBD15F9334F0035430D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4226FCFC15F935110035430D;
+			remoteInfo = Daemon;
+		};
+		421BB66415F964C3000ADEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4226FCBD15F9334F0035430D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421BB65615F964B3000ADEA3;
+			remoteInfo = Logger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		421BB65515F964B3000ADEA3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				421BB66015F964B3000ADEA3 /* Logger.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4226FCFB15F935110035430D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4226FD0615F935110035430D /* Daemon.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		421BB65715F964B3000ADEA3 /* Logger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Logger; sourceTree = BUILT_PRODUCTS_DIR; };
+		421BB65B15F964B3000ADEA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		421BB65E15F964B3000ADEA3 /* Logger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Logger-Prefix.pch"; sourceTree = "<group>"; };
+		421BB65F15F964B3000ADEA3 /* Logger.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Logger.1; sourceTree = "<group>"; };
+		4226FCC615F9334F0035430D /* Villicus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Villicus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226FCCA15F9334F0035430D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4226FCCD15F9334F0035430D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4226FCCE15F9334F0035430D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4226FCCF15F9334F0035430D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4226FCD215F933500035430D /* Villicus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Villicus-Info.plist"; sourceTree = "<group>"; };
+		4226FCD415F933500035430D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4226FCD615F933500035430D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4226FCD815F933500035430D /* Villicus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Villicus-Prefix.pch"; sourceTree = "<group>"; };
+		4226FCDA15F933500035430D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4226FCDC15F933500035430D /* FIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIAppDelegate.h; sourceTree = "<group>"; };
+		4226FCDD15F933500035430D /* FIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIAppDelegate.m; sourceTree = "<group>"; };
+		4226FCE015F933500035430D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4226FCED15F934100035430D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4226FCFD15F935110035430D /* Daemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Daemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226FD0115F935110035430D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4226FD0415F935110035430D /* Daemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daemon-Prefix.pch"; sourceTree = "<group>"; };
+		4226FD0515F935110035430D /* Daemon.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Daemon.1; sourceTree = "<group>"; };
+		4226FD1915F938E40035430D /* definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.h; path = Common/definitions.h; sourceTree = "<group>"; };
+		42418F20166099970023C347 /* FIEventClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FIEventClient.h; path = Common/FIEventClient.h; sourceTree = "<group>"; };
+		42418F22166099D00023C347 /* FIEventClientImpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIEventClientImpt.h; sourceTree = "<group>"; };
+		42418F23166099D00023C347 /* FIEventClientImpt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIEventClientImpt.m; sourceTree = "<group>"; };
+		425A3B8715FD143900608A41 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421BB65415F964B3000ADEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BB65915F964B3000ADEA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4226FCC315F9334F0035430D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226FCCB15F9334F0035430D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4226FCFA15F935110035430D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226FCFF15F935110035430D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421BB65A15F964B3000ADEA3 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				425A3B8715FD143900608A41 /* types.h */,
+				421BB65B15F964B3000ADEA3 /* main.m */,
+				421BB65F15F964B3000ADEA3 /* Logger.1 */,
+				421BB65D15F964B3000ADEA3 /* Supporting Files */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		421BB65D15F964B3000ADEA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				421BB65E15F964B3000ADEA3 /* Logger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4226FCBB15F9334F0035430D = {
+			isa = PBXGroup;
+			children = (
+				4226FD1815F938A50035430D /* Common */,
+				4226FCD015F9334F0035430D /* Villicus */,
+				4226FD0015F935110035430D /* Daemon */,
+				421BB65A15F964B3000ADEA3 /* Logger */,
+				4226FCC915F9334F0035430D /* Frameworks */,
+				4226FCC715F9334F0035430D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4226FCC715F9334F0035430D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4226FCC615F9334F0035430D /* Villicus.app */,
+				4226FCFD15F935110035430D /* Daemon */,
+				421BB65715F964B3000ADEA3 /* Logger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4226FCC915F9334F0035430D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4226FCCA15F9334F0035430D /* Cocoa.framework */,
+				4226FCED15F934100035430D /* Foundation.framework */,
+				4226FCCC15F9334F0035430D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4226FCCC15F9334F0035430D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4226FCCD15F9334F0035430D /* AppKit.framework */,
+				4226FCCE15F9334F0035430D /* CoreData.framework */,
+				4226FCCF15F9334F0035430D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4226FCD015F9334F0035430D /* Villicus */ = {
+			isa = PBXGroup;
+			children = (
+				4226FCDC15F933500035430D /* FIAppDelegate.h */,
+				4226FCDD15F933500035430D /* FIAppDelegate.m */,
+				4226FCDF15F933500035430D /* MainMenu.xib */,
+				4226FCD115F933500035430D /* Supporting Files */,
+			);
+			path = Villicus;
+			sourceTree = "<group>";
+		};
+		4226FCD115F933500035430D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4226FCD215F933500035430D /* Villicus-Info.plist */,
+				4226FCD315F933500035430D /* InfoPlist.strings */,
+				4226FCD615F933500035430D /* main.m */,
+				4226FCD815F933500035430D /* Villicus-Prefix.pch */,
+				4226FCD915F933500035430D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4226FD0015F935110035430D /* Daemon */ = {
+			isa = PBXGroup;
+			children = (
+				4226FD0115F935110035430D /* main.m */,
+				4226FD0515F935110035430D /* Daemon.1 */,
+				4226FD0315F935110035430D /* Supporting Files */,
+				42418F22166099D00023C347 /* FIEventClientImpt.h */,
+				42418F23166099D00023C347 /* FIEventClientImpt.m */,
+			);
+			path = Daemon;
+			sourceTree = "<group>";
+		};
+		4226FD0315F935110035430D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4226FD0415F935110035430D /* Daemon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4226FD1815F938A50035430D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4226FD1915F938E40035430D /* definitions.h */,
+				42418F20166099970023C347 /* FIEventClient.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421BB65615F964B3000ADEA3 /* Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421BB66115F964B3000ADEA3 /* Build configuration list for PBXNativeTarget "Logger" */;
+			buildPhases = (
+				421BB65315F964B3000ADEA3 /* Sources */,
+				421BB65415F964B3000ADEA3 /* Frameworks */,
+				421BB65515F964B3000ADEA3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logger;
+			productName = Logger;
+			productReference = 421BB65715F964B3000ADEA3 /* Logger */;
+			productType = "com.apple.product-type.tool";
+		};
+		4226FCC515F9334F0035430D /* Villicus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4226FCE415F933500035430D /* Build configuration list for PBXNativeTarget "Villicus" */;
+			buildPhases = (
+				4226FCC215F9334F0035430D /* Sources */,
+				4226FCC315F9334F0035430D /* Frameworks */,
+				4226FCC415F9334F0035430D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421BB64E15F9643C000ADEA3 /* PBXTargetDependency */,
+			);
+			name = Villicus;
+			productName = Villicus;
+			productReference = 4226FCC615F9334F0035430D /* Villicus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4226FCFC15F935110035430D /* Daemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4226FD0715F935110035430D /* Build configuration list for PBXNativeTarget "Daemon" */;
+			buildPhases = (
+				4226FCF915F935110035430D /* Sources */,
+				4226FCFA15F935110035430D /* Frameworks */,
+				4226FCFB15F935110035430D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421BB66515F964C3000ADEA3 /* PBXTargetDependency */,
+			);
+			name = Daemon;
+			productName = Daemon;
+			productReference = 4226FCFD15F935110035430D /* Daemon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4226FCBD15F9334F0035430D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FI;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ethan Reesor";
+			};
+			buildConfigurationList = 4226FCC015F9334F0035430D /* Build configuration list for PBXProject "Villicus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4226FCBB15F9334F0035430D;
+			productRefGroup = 4226FCC715F9334F0035430D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4226FCC515F9334F0035430D /* Villicus */,
+				4226FCFC15F935110035430D /* Daemon */,
+				421BB65615F964B3000ADEA3 /* Logger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4226FCC415F9334F0035430D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BB66615F964D1000ADEA3 /* Logger in Resources */,
+				421BB65115F9644C000ADEA3 /* Daemon in Resources */,
+				4226FCD515F933500035430D /* InfoPlist.strings in Resources */,
+				4226FCDB15F933500035430D /* Credits.rtf in Resources */,
+				4226FCE115F933500035430D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421BB65315F964B3000ADEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BB65C15F964B3000ADEA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4226FCC215F9334F0035430D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226FCD715F933500035430D /* main.m in Sources */,
+				4226FCDE15F933500035430D /* FIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4226FCF915F935110035430D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226FD0215F935110035430D /* main.m in Sources */,
+				42418F24166099D00023C347 /* FIEventClientImpt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421BB64E15F9643C000ADEA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4226FCFC15F935110035430D /* Daemon */;
+			targetProxy = 421BB64D15F9643C000ADEA3 /* PBXContainerItemProxy */;
+		};
+		421BB66515F964C3000ADEA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421BB65615F964B3000ADEA3 /* Logger */;
+			targetProxy = 421BB66415F964C3000ADEA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4226FCD315F933500035430D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226FCD415F933500035430D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4226FCD915F933500035430D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226FCDA15F933500035430D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4226FCDF15F933500035430D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226FCE015F933500035430D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421BB66215F964B3000ADEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logger/Logger-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421BB66315F964B3000ADEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logger/Logger-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4226FCE215F933500035430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4226FCE315F933500035430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4226FCE515F933500035430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Villicus/Villicus-Prefix.pch";
+				INFOPLIST_FILE = "Villicus/Villicus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4226FCE615F933500035430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Villicus/Villicus-Prefix.pch";
+				INFOPLIST_FILE = "Villicus/Villicus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4226FD0815F935110035430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daemon/Daemon-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4226FD0915F935110035430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Daemon/Daemon-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421BB66115F964B3000ADEA3 /* Build configuration list for PBXNativeTarget "Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421BB66215F964B3000ADEA3 /* Debug */,
+				421BB66315F964B3000ADEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4226FCC015F9334F0035430D /* Build configuration list for PBXProject "Villicus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226FCE215F933500035430D /* Debug */,
+				4226FCE315F933500035430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4226FCE415F933500035430D /* Build configuration list for PBXNativeTarget "Villicus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226FCE515F933500035430D /* Debug */,
+				4226FCE615F933500035430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4226FD0715F935110035430D /* Build configuration list for PBXNativeTarget "Daemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226FD0815F935110035430D /* Debug */,
+				4226FD0915F935110035430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4226FCBD15F9334F0035430D /* Project object */;
+}

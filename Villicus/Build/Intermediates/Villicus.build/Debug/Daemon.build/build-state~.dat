@@ -1,0 +1,97 @@
+TDaemon
+v5
+r1
+cCheck dependencies
+cProcessPCH "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.pth" Daemon/Daemon-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005094597C00000000000000AA
+t1351899516
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506269C000000000000C39B8
+t1348626880
+s801208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005019787A00000000000015F7
+t1343846522
+s5623
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.pth
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/Daemon.LinkFileList
+c0000000050B0585A00000000000000A5
+t1353734234
+s165
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/Daemon-Prefix.pch
+c000000005048FD910000000000000096
+t1346960785
+s150
+i<Foundation/Foundation.h>
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m
+c00000000504CFFAA00000000000005D2
+t1347223466
+s1490
+
+CBuild AST from "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies908405da8f60b641^532506da8f60b641^---0#1#0#--18"Check dependencies36"8D30D739-BA29-4FEA-ABBB-4A383571F278-
+
+CCompileC Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375427034.595685
+e375427034.659155
+r1
+xCompileC
+xBuild/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.o
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m249a98da8f60b641^51bea8da8f60b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Daemon/main.m0000000000000000^3489"CompileC Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.o Daemon/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-generated-files.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-own-target-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-all-target-headers.hmap" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-project-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/include" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/DerivedSources/x86_64" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/DerivedSources" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" -include "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch" -MMD -MT dependencies -MF "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.dia" -c "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/main.m" -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/main.o"36"854E374F-D765-41D8-8655-187F89C630E7-
+
+CLd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon" normal x86_64
+s375427034.666103
+e375427034.686701
+r1
+xLd
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon7d97aada8f60b641^2ecbafda8f60b641^---0#0#0#--983"Ld Build/Products/Debug/Daemon normal x86_64    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" -filelist "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Objects-normal/x86_64/Daemon.LinkFileList" -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Foundation -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon"36"4EDD25D3-EC99-480F-B6F6-082E808A0F5F-
+
+CProcessPCH "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.pth" Daemon/Daemon-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375427034.027156
+e375427034.588485
+r1
+xProcessPCH
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.pth
+xDaemon/Daemon-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Daemon/Daemon-Prefix.pchfa0d07da8f60b641^c2a696da8f60b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Daemon/Daemon-Prefix.pch0000000000000000^3407"ProcessPCH Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.pth Daemon/Daemon-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-generated-files.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-own-target-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-all-target-headers.hmap" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/Daemon-project-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/include" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/DerivedSources/x86_64" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Daemon.build/DerivedSources" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" --serialize-diagnostics "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.dia" -c "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Daemon/Daemon-Prefix.pch" -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Daemon-Prefix-bkpkdnmcqaqcyjayluikqeqkyntq/Daemon-Prefix.pch.d"36"82414EDF-AC99-430C-B9E7-7237D271F241-
+
+CProcessPCH /Users/firelizzard/Library/Developer/Xcode/DerivedData/Villicus-genmlyawedvgmqcesdkkrmwmjltw/Index/PrecompiledHeaders/Daemon-Prefix-dsgachfinttkoofhmufkqgqnmhbm_ast/Daemon-Prefix.pch.pth Daemon/Daemon-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

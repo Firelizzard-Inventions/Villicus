@@ -1,0 +1,253 @@
+TVillicus
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Info.plist" Villicus/Villicus-Info.plist
+cProcessPCH "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.pth" Villicus/Villicus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus" normal x86_64
+cCpResource Build/Products/Debug/Logger Build/Products/Debug/Villicus.app/Contents/Resources/Logger
+cCpResource Build/Products/Debug/Daemon Build/Products/Debug/Villicus.app/Contents/Resources/Daemon
+cCopyStringsFile "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/InfoPlist.strings" Villicus/en.lproj/InfoPlist.strings
+cCpResource Villicus/en.lproj/Credits.rtf Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib"
+cTouch "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005094597C00000000000000AA
+t1351899516
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005019787A00000000000025C8
+t1343846522
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005019787A00000000000001E5
+t1343846522
+s485
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.pth
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.o
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/Villicus.LinkFileList
+c0000000050B06B310000000000000157
+t1353739057
+s343
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon
+c0000000050B06B090000000000003E38
+t1353739017
+s15928
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Logger
+c0000000050B06AFA00000000000038DC
+t1353739002
+s14556
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Info.plist
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/Daemon
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/Logger
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m
+c0000000050B06B2F0000000000000284
+t1353739055
+s644
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/Villicus-Prefix.pch
+c000000005048FBD00000000000000090
+t1346960336
+s144
+i<Cocoa/Cocoa.h>
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/Credits.rtf
+c000000005048FBD000000000000001B4
+t1346960336
+s436
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/InfoPlist.strings
+c000000005048FBD0000000000000002D
+t1346960336
+s45
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib
+c000000005048FBD00000000000033DFE
+t1346960336
+s212478
+
+N/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m
+c000000005048FCC10000000000000101
+t1346960577
+s257
+
+NVillicus/Villicus-Info.plist
+c000000005048FD4E00000000000004B1
+t1346960718
+s1201
+
+CBuild AST from "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m"
+r0
+
+CBuild AST from "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies938badb1a260b641^7367aeb1a260b641^---0#1#0#--18"Check dependencies36"BABED020-02B5-422C-ABE5-2E9141DD43C1-
+
+CCompileC Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375431858.431755
+e375431858.543358
+r1
+xCompileC
+xBuild/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.o
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m9bab6eb2a260b641^151b8bb2a260b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m0000000000000000^3579"CompileC Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.o Villicus/FIAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-generated-files.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-own-target-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-all-target-headers.hmap" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-project-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/include" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/DerivedSources/x86_64" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/DerivedSources" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" -include "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch" -MMD -MT dependencies -MF "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.d" --serialize-diagnostics "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.dia" -c "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/FIAppDelegate.m" -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/FIAppDelegate.o"36"E7F6A250-48B9-4E15-9049-155F91D6EA05-
+
+CCompileC Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375431858.431750
+e375431858.526197
+r1
+xCompileC
+xBuild/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.o
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m26ab6eb2a260b641^c8b486b2a260b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Villicus/main.m0000000000000000^3525"CompileC Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.o Villicus/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-generated-files.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-own-target-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-all-target-headers.hmap" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-project-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/include" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/DerivedSources/x86_64" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/DerivedSources" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" -include "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch" -MMD -MT dependencies -MF "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.dia" -c "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/main.m" -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/main.o"36"51273EFA-354A-4E86-9A55-49FC519EA81D-
+
+CCompileXIB "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib"
+s375431858.680205
+e375431859.866965
+r1
+xCompileXIB
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compiling /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib365ab2b2a260b641^9df1ddb3a260b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib0000000000000000^740"CompileXIB Villicus/en.lproj/MainMenu.xib    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/MainMenu.nib" "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"96C4D9B4-04AE-4D99-A937-3022CF51F170-
+
+CCopyStringsFile "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/InfoPlist.strings" Villicus/en.lproj/InfoPlist.strings
+s375431858.679978
+e375431858.789917
+r1
+xCopyStringsFile
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/InfoPlist.strings
+xVillicus/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Villicus/en.lproj/InfoPlist.stringsdb30aeb2a260b641^4338cab2a260b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Villicus/en.lproj/InfoPlist.strings0000000000000000^498"CopyStringsFile Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/InfoPlist.strings Villicus/en.lproj/InfoPlist.strings    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj" -- Villicus/en.lproj/InfoPlist.strings36"F704AF9A-8AA1-4240-A9EF-F4CF79DFA122-
+
+CCpResource Build/Products/Debug/Daemon Build/Products/Debug/Villicus.app/Contents/Resources/Daemon
+s375431858.679934
+e375431858.699914
+r1
+xCpResource
+xBuild/Products/Debug/Daemon
+xBuild/Products/Debug/Villicus.app/Contents/Resources/Daemon
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug/Villicus.app/Contents/Resources/Daemon8331aeb2a260b641^c32db3b2a260b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/Daemon000000000080d041^551"CpResource Build/Products/Debug/Daemon Build/Products/Debug/Villicus.app/Contents/Resources/Daemon    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Daemon" "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources"36"55E6312D-76B5-496A-AA5D-A76A44BC4513-
+
+CCpResource Build/Products/Debug/Logger Build/Products/Debug/Villicus.app/Contents/Resources/Logger
+s375431858.679915
+e375431858.702944
+r1
+xCpResource
+xBuild/Products/Debug/Logger
+xBuild/Products/Debug/Villicus.app/Contents/Resources/Logger
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug/Villicus.app/Contents/Resources/Loggercb2caeb2a260b641^88f4b3b2a260b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/Logger000000000080d041^551"CpResource Build/Products/Debug/Logger Build/Products/Debug/Villicus.app/Contents/Resources/Logger    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Logger" "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources"36"9B6797BC-51E4-4801-B182-834497AEDA41-
+
+CCpResource Villicus/en.lproj/Credits.rtf Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtf
+s375431858.680035
+e375431858.787473
+r1
+xCpResource
+xVillicus/en.lproj/Credits.rtf
+xBuild/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtfbe33aeb2a260b641^a69ac9b2a260b641^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^578"CpResource Villicus/en.lproj/Credits.rtf Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj/Credits.rtf    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/en.lproj/Credits.rtf" "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Resources/en.lproj"36"67B57177-CDA5-4BE0-9469-F23FBE250A48-
+
+CLd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus" normal x86_64
+s375431858.550337
+e375431858.667374
+r1
+xLd
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus90f58cb2a260b641^6ad9aab2a260b641^---0#0#0#--1042"Ld Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus normal x86_64    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" -filelist "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Objects-normal/x86_64/Villicus.LinkFileList" -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Cocoa -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/MacOS/Villicus"36"9632CE48-980D-4DEB-81A8-0BBD26C36594-
+
+CProcessInfoPlistFile "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Info.plist" Villicus/Villicus-Info.plist
+s375431857.686252
+e375431857.690480
+r1
+xProcessInfoPlistFile
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Info.plist
+xVillicus/Villicus-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Villicus/Villicus-Info.plist01c2afb1a260b641^4cc3b0b1a260b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Villicus/Villicus-Info.plist0000000000000000^579"ProcessInfoPlistFile Build/Products/Debug/Villicus.app/Contents/Info.plist Villicus/Villicus-Info.plist    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    builtin-infoPlistUtility Villicus/Villicus-Info.plist -genpkginfo "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app/Contents/Info.plist"36"9543885E-8552-4F93-8C40-8D2EC277426B-
+
+CProcessPCH "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.pth" Villicus/Villicus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375431857.698782
+e375431858.424708
+r1
+xProcessPCH
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.pth
+xVillicus/Villicus-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Villicus/Villicus-Prefix.pch0dfeb2b1a260b641^c3bb6cb2a260b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/firelizzard/Documents/Programming/Firelizzard%20Inventions/Villicus/Villicus/Villicus/Villicus-Prefix.pch0000000000000000^3451"ProcessPCH Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.pth Villicus/Villicus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-generated-files.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-own-target-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-all-target-headers.hmap" -iquote "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/Villicus-project-headers.hmap" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/include" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/DerivedSources/x86_64" "-I/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/Villicus.build/Debug/Villicus.build/DerivedSources" "-F/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug" --serialize-diagnostics "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.dia" -c "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Villicus/Villicus-Prefix.pch" -o "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Intermediates/PrecompiledHeaders/Villicus-Prefix-fcmckfwvrsitvqfwylrnsnpzubmj/Villicus-Prefix.pch.d"36"0E15F99C-87D7-4553-A8B7-8AE25371513E-
+
+CProcessPCH /Users/firelizzard/Library/Developer/Xcode/DerivedData/Villicus-genmlyawedvgmqcesdkkrmwmjltw/Index/PrecompiledHeaders/Villicus-Prefix-axwoibiaagvptefeujobwinhkfse_ast/Villicus-Prefix.pch.pth Villicus/Villicus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app"
+s375431859.874960
+e375431859.881020
+r1
+xTouch
+x/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Touch /Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app240be0b3a260b641^878ae1b3a260b641^---0#0#0#--271"Touch Build/Products/Debug/Villicus.app    cd "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus"    /usr/bin/touch -c "/Users/firelizzard/Documents/Programming/Firelizzard Inventions/Villicus/Villicus/Build/Products/Debug/Villicus.app"36"7CC08C77-3EF6-4A2B-852D-1F9F2D86A62D-
+
